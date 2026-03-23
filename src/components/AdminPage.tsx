@@ -10,7 +10,7 @@ type EditableGuestFields = Pick<Guest, 'id' | 'full_name' | 'allowed_plus_ones' 
 
 const defaultSettings: EventSettings = {
   id: 'default',
-  couple_names: 'Alex & Sam',
+  couple_names: 'Talha & Wania',
   event_title: 'request the pleasure of your company',
   event_date: '',
   venue_name: 'Venue name',

@@ -2,7 +2,7 @@ create extension if not exists pgcrypto;
 
 create table if not exists public.event_settings (
   id text primary key,
-  couple_names text not null default 'Alex & Sam',
+  couple_names text not null default 'Talha & Wania',
   event_title text not null default 'request the pleasure of your company',
   event_date text not null default '',
   venue_name text not null default '',

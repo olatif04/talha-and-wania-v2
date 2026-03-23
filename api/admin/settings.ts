@@ -14,7 +14,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
   const { error } = await supabaseAdmin.from('event_settings').upsert({
     id: 'default',
-    couple_names: payload.couple_names ?? 'Alex & Sam',
+    couple_names: payload.couple_names ?? 'Talha & Wania',
     event_title: payload.event_title ?? 'request the pleasure of your company',
     event_date: payload.event_date ?? '',
     venue_name: payload.venue_name ?? '',
